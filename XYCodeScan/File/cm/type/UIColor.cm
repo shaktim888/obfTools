@@ -1,0 +1,23 @@
+#class#UIColor##UIKit
+##m1#initWithWhite:#0 alpha:#1##Float-1.0,Float-1.0
+##m1#initWithHue:#0 saturation:#1 brightness:#2 alpha:#3##Float-1.0,Float-1.0,Float-1.0,Float-1.0
+##m1#initWithRed:#0 green:#1 blue:#2 alpha:#3##Float-1.0,Float-1.0,Float-1.0,Float-1.0
+
+##m2#colorWithWhite:#0 alpha:#1##Float-1.0,Float-1.0
+##m2#colorWithHue:#0 saturation:#1 brightness:#2 alpha:#3##Float-1.0,Float-1.0,Float-1.0,Float-1.0
+##m2#colorWithRed:#0 green:#1 blue:#2 alpha:#3##Float-1.0,Float-1.0,Float-1.0,Float-1.0
+##m2#blackColor
+##m2#darkGrayColor
+##m2#lightGrayColor
+##m2#whiteColor
+##m2#grayColor
+##m2#redColor
+##m2#greenColor
+##m2#blueColor
+##m2#cyanColor
+##m2#yellowColor
+##m2#magentaColor
+##m2#orangeColor
+##m2#purpleColor
+##m2#brownColor
+##m2#clearColor

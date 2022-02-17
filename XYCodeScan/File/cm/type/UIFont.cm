@@ -1,0 +1,14 @@
+#class#UIFont##UIKit
+##m2#systemFontOfSize:#0##Float-72.0
+##m2#boldSystemFontOfSize:#0##Float-72.0
+##m2#italicSystemFontOfSize:#0##Float-72.0
+
+##p_read#fontName##NSString
+##p_read#familyName##NSString
+##p_read#pointSize##float
+##p_read#ascender##float
+##p_read#descender##float
+##p_read#capHeight##float
+##p_read#xHeight##float
+##p_read#lineHeight##float
+##p_read#leading##float

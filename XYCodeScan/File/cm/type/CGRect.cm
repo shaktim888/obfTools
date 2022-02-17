@@ -1,0 +1,13 @@
+#struct#CGRect##UIKit
+##m2#CGRectMake(#0, #1, #2, #3)##Float,Float,Float,Float
+##m2_const#CGRectZero
+
+##m#CGRectContainsPoint(#self, #0)##bool,CGPoint
+##m#CGRectIntersectsRect(#self, #0)##bool,CGRect
+##m#CGRectEqualToRect(#self, #0)##bool,CGRect
+##p#origin##CGPoint
+##p#origin.x##float
+##p#origin.y##float
+##p#size##CGSize
+##p#size.width##float
+##p#size.height##float

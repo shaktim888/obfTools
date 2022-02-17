@@ -1,0 +1,10 @@
+#enum#UIViewAutoresizing##UIKit
+
+##e#UIViewAutoresizingNone
+##e#UIViewAutoresizingFlexibleLeftMargin
+##e#UIViewAutoresizingFlexibleWidth
+##e#UIViewAutoresizingFlexibleRightMargin
+##e#UIViewAutoresizingFlexibleTopMargin
+##e#UIViewAutoresizingFlexibleHeight
+##e#UIViewAutoresizingFlexibleBottomMargin
+

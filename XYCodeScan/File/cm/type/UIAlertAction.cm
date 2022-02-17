@@ -1,0 +1,2 @@
+#class#UIAlertAction##UIKit
+##m2#actionWithTitle:#0 style:#1 handler:nil##NSString,UIAlertActionStyle

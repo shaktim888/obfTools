@@ -1,0 +1,7 @@
+#struct#CGPoint##UIKit
+##m2#CGPointMake(#0, #1)##Float,Float
+##m2_const#CGPointZero
+
+##m#CGPointEqualToPoint(#self, #0)##bool,CGPoint
+##p#x##float
+##p#y##float

@@ -1,0 +1,6 @@
+##c,oc,c++##
+${block_start}
+for(${declare_var1_int}; ${var1} ${>,<,>=,<=} ${int}; ${var1}${++,--}) {
+	${block_false}
+}
+${block_end}

@@ -1,0 +1,4 @@
+#enum#UITableViewStyle##UIKit
+
+##e#UITableViewStylePlain
+##e#UITableViewStyleGrouped

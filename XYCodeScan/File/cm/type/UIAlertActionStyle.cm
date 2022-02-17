@@ -1,0 +1,5 @@
+#enum#UIAlertActionStyle##UIKit
+
+##e#UIAlertActionStyleDefault
+##e#UIAlertActionStyleCancel
+##e#UIAlertActionStyleDestructive

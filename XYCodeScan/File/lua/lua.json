@@ -1,0 +1,261 @@
+[
+	{
+		"type": "Node",
+		"new": ["local ${name}=cc.Node:create()"],
+		"init" : "${name}:setPosition(${PositionOut})\nif cc.Director:getInstance():getRunningScene() and not cc.Director:getInstance():isSendCleanupToScene() then local scene=cc.Director:getInstance():getRunningScene() if scene:getChildrenCount() <= 50 then scene:addChild(${name}) ${name}:runAction(cc.RemoveSelf:create()) end  end\n",
+		"func": [
+			{
+				"name" : "runAction",
+				"args" : ["Action|ActionSequence"]
+			},
+			{
+				"name" : "getRotation",
+				"args" : [],
+				"return" : "num"
+			},
+			{
+				"name" : "setPositionX",
+				"args" : ["int:-10000:-1000"]
+			},
+			{
+				"name" : "setPositionY",
+				"args" : ["int:-10000:-1000"]
+			},
+            {
+                "name" : "setVisible",
+                "args" : ["bool"]
+            },
+            {
+                "name" : "setPosition",
+                "args" : ["PositionOut"]
+            },
+            {
+                "name" : "setAnchorPoint",
+                "args" : ["Position01"]
+            },
+            {
+                "name" : "addChild",
+                "args" : ["Node|DrawNode|Layer|Widget|Layout"]
+            },
+            {
+                "name" : "setScale",
+                "args" : ["float:0:1"]
+            },
+            {
+                "name" : "getContentSize",
+                "args" : []
+            },
+            {
+                "name" : "setContentSize",
+                "args" : ["Size"]
+            },
+            {
+                "name" : "getChildByName",
+                "args" : ["string:3:10"]
+            },
+            {
+                "name" : "setName",
+                "args" : ["string:3:10"]
+            },
+            {
+                "name" : "getName",
+                "args" : []
+            },
+            {
+            	"name" : "setTag",
+                "args" : ["int:1:19999"]
+            },
+            {
+            	"name" : "getTag",
+                "args" : []
+            },
+            {
+                "name" : "setCascadeOpacityEnabled",
+                "args" : ["bool"]
+            },
+            {
+                "name" : "isCascadeOpacityEnabled",
+                "args" : []
+            },
+		]
+	},
+    {
+        "type" : "DrawNode",
+        "extern" : "Node",
+        "new" : ["local ${name}=cc.DrawNode:create()"],
+        "init" : "${name}:setPosition(${PositionOut})\nif cc.Director:getInstance():getRunningScene() and not cc.Director:getInstance():isSendCleanupToScene() then local scene=cc.Director:getInstance():getRunningScene() if scene:getChildrenCount() <= 50 then scene:addChild(${name}) ${name}:runAction(cc.RemoveSelf:create()) end  end\n",
+        "func": [
+            {
+                "name" : "drawPoint",
+                "args" : ["Position", "float:1:5", "Color4"]
+            },
+            {
+                "name" : "drawLine",
+                "args" : ["Position", "Position", "Color4"]
+            },
+            {
+                "name" : "drawRect",
+                "args" : ["Position","Position","Position","Position","Color4"]
+            },
+            {
+            	"name" : "setLineWidth",
+            	"args" : ["int:1:10"]
+            }
+        ]
+    },
+    {
+        "type" : "Layer",
+        "extern" : "Node",
+        "new" : ["local ${name}=cc.Layer:create()"],
+        "init" : "${name}:setPosition(${PositionOut})\nif cc.Director:getInstance():getRunningScene() and not cc.Director:getInstance():isSendCleanupToScene() then local scene=cc.Director:getInstance():getRunningScene() if scene:getChildrenCount() <= 50 then scene:addChild(${name}) ${name}:runAction(cc.RemoveSelf:create()) end  end\n",
+        "func": [
+            {
+                "name" : "isTouchEnabled",
+                "args" : []
+            },
+            {
+                "name" : "isSwallowsTouches",
+                "args" : []
+            },
+            {
+                "name" : "isKeyboardEnabled",
+                "args" : []
+            },
+            {
+                "name" : "setSwallowsTouches",
+                "args" : ["bool"]
+            },
+        ]
+    },
+    {
+        "type" : "Widget",
+        "extern" : "Node",
+        "new" : ["local ${name}=ccui.Widget:create()"],
+        "init" : "${name}:setTouchEnabled(false)\n${name}:setPosition(${PositionOut})\nif cc.Director:getInstance():getRunningScene() and not cc.Director:getInstance():isSendCleanupToScene() then local scene=cc.Director:getInstance():getRunningScene() if scene:getChildrenCount() <= 50 then scene:addChild(${name}) ${name}:runAction(cc.RemoveSelf:create()) end  end\n",
+        "func": [
+            {
+                "name" : "setEnabled",
+                "args" : ["bool"]
+            },
+            {
+                "name" : "isEnabled",
+                "args" : []
+            },
+            {
+                "name" : "isTouchEnabled",
+                "args" : []
+            },
+            {
+                "name" : "isHighlighted",
+                "args" : []
+            },
+            {
+                "name" : "isFlippedX",
+                "args" : []
+            },
+            {
+                "name" : "isFlippedY",
+                "args" : []
+            },
+            {
+                "name" : "setFlippedX",
+                "args" : ["bool"]
+            },
+            {
+                "name" : "setFlippedY",
+                "args" : ["bool"]
+            },
+        ]
+    },
+    {
+        "type" : "Layout",
+        "extern" : "Widget",
+        "new" : ["local ${name}=ccui.Layout:create()"],
+        "init" : "${name}:setTouchEnabled(false)\n${name}:setPosition(${PositionOut})\nif cc.Director:getInstance():getRunningScene() and not cc.Director:getInstance():isSendCleanupToScene() then local scene=cc.Director:getInstance():getRunningScene() if scene:getChildrenCount() <= 50 then scene:addChild(${name}) ${name}:runAction(cc.RemoveSelf:create()) end  end\n",
+        "func" : [
+        	{
+                "name" : "ignoreContentAdaptWithSize",
+                "args" : ["bool"]
+            },
+            {
+                "name" : "setClippingEnabled",
+                "args" : ["bool"]
+            },
+            {
+                "name" : "setCascadeColorEnabled",
+                "args" : ["bool"]
+            },
+            {
+                "name" : "setBackGroundColorOpacity",
+                "args" : ["int:0:255"]
+            },
+        ]
+    },
+    {
+        "new" : ["{ x=${int:-100:100},y=${int:-100:100} }"],
+        "type" : "Position"
+    },
+    {
+        "new" : ["{ x=${int:-10000:-1000},y=${int:-10000:-1000} }"],
+        "type" : "PositionOut"
+    },
+    {
+        "new" : ["{ width=${int:10:200},height=${int:10:200}}"],
+        "type" : "Size"
+    },
+    {
+        "new" : ["{r=${int:0:255},g=${int:0:255},b=${int:0:255},a=${int:0:255}}"],
+        "type" : "Color4"
+    },
+    {
+        "new" : ["{r=${int:0:255},g=${int:0:255},b=${int:0:255}}"],
+        "type" : "Color3"
+    },
+    {
+        "new" : ["{ x=${float:0:1}, y=${float:0:1} }"],
+        "type" : "Position01"
+    },
+	{
+		"new" : [
+			"{ ${Position}, ${Position}",
+			"{ ${Position}, ${Position}, ${Position} }",
+			"{ ${Position}, ${Position}, ${Position}, ${Position} }",
+			"{ ${Position}, ${Position}, ${Position}, ${Position}, ${Position} }",
+			"{ ${Position}, ${Position}, ${Position}, ${Position}, ${Position}, ${Position} }"
+		],
+		"type" : "PositionList"
+	},
+	{
+		"new" : [
+			"cc.MoveTo:create(${float:0.1:10}, ${Position})",
+			"cc.FadeIn:create(${float:0.1:10})",
+			"cc.FadeOut:create(${float:0.1:10})",
+			"cc.ScaleTo:create(${float:0.1:10}, ${float:0.1:2})",
+            "cc.ScaleBy:create(${float:0.1:10}, ${float:0.1:2})",
+            "cc.CallFunc:create(${function})"
+		],
+		"type": "Action",
+	},
+    {
+        "new" : [
+            "cc.Sequence:create({ ${Action}, ${Action} })",
+            "cc.Sequence:create({ ${Action}, ${Action}, ${Action} })",
+            "cc.Sequence:create({ ${Action}, ${Action}, ${Action}, ${Action}  })"
+        ],
+        "type": "ActionSequence",
+    },
+    {
+        "new" : [
+            "true",
+            "false"
+        ],
+        "type": "bool",
+    },
+    {
+        "new" : [
+            "function() end",
+            "function() print(${string:3:10}) end"
+        ],
+        "type": "function",
+    }
+]

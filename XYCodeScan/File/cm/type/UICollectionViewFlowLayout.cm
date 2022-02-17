@@ -1,0 +1,13 @@
+#class#UICollectionViewFlowLayout##UIKit
+##m1#init
+
+##p#minimumLineSpacing##CGFloat
+##p#minimumInteritemSpacing##CGFloat
+##p#itemSize##CGSize
+##p#estimatedItemSize##CGSize
+##p#scrollDirection##UICollectionViewScrollDirection
+##p#headerReferenceSize##CGSize
+##p#footerReferenceSize##CGSize
+##p#sectionInset##UIEdgeInsets
+##p#sectionHeadersPinToVisibleBounds##Bool
+##p#sectionFootersPinToVisibleBounds##Bool

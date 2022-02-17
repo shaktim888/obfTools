@@ -1,0 +1,6 @@
+##c,oc,c++##
+while(${bool}) {
+	${block_start}
+	${block_false}
+	${block_end}
+}

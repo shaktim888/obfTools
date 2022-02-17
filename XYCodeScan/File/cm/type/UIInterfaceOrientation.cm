@@ -1,0 +1,6 @@
+#enum#UIInterfaceOrientation##UIKit
+
+##e#UIInterfaceOrientationPortrait
+##e#UIInterfaceOrientationPortraitUpsideDown
+##e#UIInterfaceOrientationLandscapeLeft
+##e#UIInterfaceOrientationLandscapeRight

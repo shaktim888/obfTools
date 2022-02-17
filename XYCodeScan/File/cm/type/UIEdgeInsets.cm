@@ -1,0 +1,8 @@
+#struct#UIEdgeInsets##UIKit
+##m2#UIEdgeInsetsMake(#0, #1, #2, #3)##Float-100.0,Float-100.0,Float-100.0,Float-100.0
+##m2_const#UIEdgeInsetsZero
+
+##p#top##CGFloat
+##p#left##CGFloat
+##p#bottom##CGFloat
+##p#right##CGFloat

@@ -1,0 +1,8 @@
+#class#NSMutableSet##Foundation
+##m1#init
+##m1#initWithCapacity:#0##int
+
+##m#addObject:#0##void,id
+##m#removeObject:#0##void,id
+##m#removeAllObjects##void
+

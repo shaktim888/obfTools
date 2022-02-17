@@ -1,0 +1,12 @@
+##c,oc,c++##
+${block_start}
+for(${declare_var1_int}; ${true}; ${var1}${++,--}) {
+	${block}
+	if(${true}) {
+		${block_start}
+		${block}
+		${block_end}
+		break;
+	}
+}
+${block_end}

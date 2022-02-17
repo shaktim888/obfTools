@@ -1,0 +1,8 @@
+#struct#NSRange##UIKit
+##m2#NSMakeRange(#0, #1)##Int-100,Int-100
+
+##p#length##float
+##p#location##float
+
+##m#NSStringFromRange(#self)##NSString
+##m#[#0 substringWithRange:#self]##NSString,NSString

@@ -1,0 +1,8 @@
+#enum#NSLineBreakMode##UIKit
+
+##e#NSLineBreakByWordWrapping
+##e#NSLineBreakByCharWrapping
+##e#NSLineBreakByClipping
+##e#NSLineBreakByTruncatingHead
+##e#NSLineBreakByTruncatingTail
+##e#NSLineBreakByTruncatingMiddle

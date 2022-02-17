@@ -1,0 +1,8 @@
+#enum#UIButtonType##UIKit
+
+##e#UIButtonTypeCustom
+##e#UIButtonTypeSystem
+##e#UIButtonTypeDetailDisclosure
+##e#UIButtonTypeInfoLight
+##e#UIButtonTypeInfoDark
+##e#UIButtonTypeContactAdd

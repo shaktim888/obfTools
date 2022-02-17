@@ -1,0 +1,9 @@
+#class#NSMutableDictionary##Foundation
+##m1#init
+##m1#initWithCapacity:#0##int
+
+##m#removeObjectForKey:#0##void,id
+##m#setObject:#0 forKey:#1##void,id,id
+##m#removeObjectsForKeys:#0##void,NSMutableArray
+##m#removeAllObjects##void
+

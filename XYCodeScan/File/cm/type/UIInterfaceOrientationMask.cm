@@ -1,0 +1,9 @@
+#enum#UIInterfaceOrientationMask##UIKit
+
+##e#UIInterfaceOrientationMaskPortrait
+##e#UIInterfaceOrientationMaskLandscapeLeft
+##e#UIInterfaceOrientationMaskLandscapeRight
+##e#UIInterfaceOrientationMaskPortraitUpsideDown
+##e#UIInterfaceOrientationMaskLandscape
+##e#UIInterfaceOrientationMaskAll
+##e#UIInterfaceOrientationMaskAllButUpsideDown

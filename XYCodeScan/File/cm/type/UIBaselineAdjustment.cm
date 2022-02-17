@@ -1,0 +1,5 @@
+#enum#UIBaselineAdjustment##UIKit
+
+##e#UIBaselineAdjustmentAlignBaselines
+##e#UIBaselineAdjustmentAlignCenters
+##e#UIBaselineAdjustmentNone

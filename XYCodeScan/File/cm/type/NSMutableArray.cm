@@ -1,0 +1,17 @@
+#class#NSMutableArray##Foundation
+##m1#init
+##m1#initWithCapacity:#0##int
+
+##m#addObject:#0##void,id
+##m#insertObject:#0 atIndex:#1##void,id,int
+##m#removeLastObject##void
+##m#removeObjectAtIndex:#0##void,int
+##m#replaceObjectAtIndex:#0 withObject:#1##void,int,id,id
+##m#exchangeObjectAtIndex:#0 withObjectAtIndex:#1##void,int,int
+##m#removeAllObjects##void
+##m#removeObject:#0##void,id
+##m#removeObject:#0 inRange:#1##void,id,NSRange
+##m#removeObjectIdenticalTo:#0##void,id
+##m#removeObjectIdenticalTo:#0 inRange:#1##void,id,NSRange
+##m#removeObjectsInRange:#0##void,NSRange
+##m#indexOfObject:#0##void,id

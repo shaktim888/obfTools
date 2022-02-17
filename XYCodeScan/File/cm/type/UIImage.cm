@@ -1,0 +1,18 @@
+#class#UIImage##UIKit
+##m1#initWithData:#0##NSData
+##m1#initWithData:#0 scale:#1##NSData,Float-10.0
+##m2#imageNamed:#0##NSString
+##m2#imageWithData:#0##NSData
+##m2#imageWithData:#0 scale:#1##NSData,Float-10.0
+
+##p_read#size##CGSize
+##p_read#scale##CGFloat
+##p_read#capInsets##UIEdgeInsets
+
+##m#drawAtPoint:#0##void,CGPoint
+##m#drawInRect:#0##void,CGRect
+##m#drawAsPatternInRect:#0##void,CGRect
+##m#resizableImageWithCapInsets:#0##UIImage,UIEdgeInsets
+
+##m#UIImagePNGRepresentation(#self)##NSData
+##m#UIImageJPEGRepresentation(#self, #0)##NSData,float-0-1

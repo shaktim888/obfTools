@@ -1,0 +1,7 @@
+-- {{ ClassName }}.lua
+
+local {{ ClassName }} = {};
+
+{% for p in funcs %}{{ p }}
+{% /for %}
+return {{ ClassName }};

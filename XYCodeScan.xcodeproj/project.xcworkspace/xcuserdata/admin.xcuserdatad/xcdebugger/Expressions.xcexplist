@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "scan::TokenScan::HandleTopLevelExpression(scan::Context*):TokenScan.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "hygen::CodeFactory::onToken(hygen::CodeParser*, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;):XCodeFactory.mm">
+      </ContextState>
+      <ContextState
+         contextName = "hygen::CodeFactory::finish():XCodeFactory.mm">
+      </ContextState>
+      <ContextState
+         contextName = "llex:myLuaParser.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char)ls-&gt;current">
+            </PersistentString>
+            <PersistentString
+               value = "ls-&gt;buff-&gt;buffer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "hygen::Block::mergeCode(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;):XBlock.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "hygen::CodeFactory::onParseFinish(hygen::CodeParser*, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;):XCodeFactory.mm">
+      </ContextState>
+      <ContextState
+         contextName = "-[DFPropertyDefinition consumeProtocols]:DFPropertyDefinition.m">
+      </ContextState>
+      <ContextState
+         contextName = "luaX_setinput:myLuaParser.m">
+      </ContextState>
+      <ContextState
+         contextName = "getStrToken:myLuaParser.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char*)str">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[XcodeTools modifyGroupAndFolderName:root:pPath:pathMap:]:XcodeTools.m">
+      </ContextState>
+      <ContextState
+         contextName = "PngParse::write_png_file(char const*, char const*):pngTools.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "color_type">
+            </PersistentString>
+            <PersistentString
+               value = "bit_depth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "hygen::CodeFactory::insertCode(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, bool, bool):XCodeFactory.mm">
+      </ContextState>
+      <ContextState
+         contextName = "+[XcodeTools modifyGroupAndFolderName:root:pPath:orgPath:pathMap:]:XcodeTools.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "item">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DFModelBuilder processOCClassDeclaration:]:DFModelBuilder.m">
+      </ContextState>
+      <ContextState
+         contextName = "::-[ClangBlock OBF:](DFModelBuilder *):ClangBlock.mm">
+      </ContextState>
+      <ContextState
+         contextName = "hygen::CodeParser::parser():XCodeParser.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "code">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "scan::Context::enterBlock(bool):SC_TokenContext.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "hygen::CodeFactory::genCode(bool, bool):XCodeFactory.mm">
+      </ContextState>
+      <ContextState
+         contextName = "hygen::Block::addLine(hygen::Line*, bool):XBlock.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "scan::TokenScan::scanFile(char const*):TokenScan.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "::-[ClangCXXMethodBlock obfEnd:](DFModelBuilder *):ClangCXXMethodBlock.mm">
+      </ContextState>
+      <ContextState
+         contextName = "coroutine_resume:coroutine.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "S-&gt;co[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ocgen::AllTypeManager::isCanOpType(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;):AllTypeManager.mm">
+      </ContextState>
+      <ContextState
+         contextName = "ocgen::OCClassInfo::execABoolValue(ocgen::RuntimeContext*, ocgen::VarInfo*):OCClassInfo.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "-[ClangXcode obfWithTarget:]:ClangXcode.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "scan::Context::cacheBlockBegin():SC_TokenContext.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "outputCache">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "scan::Context::cacheLine():SC_TokenContext.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "outputCache">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CodeTokenScan::HandleTopLevelExpression():CodeTokenScan.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char)PreKHTok">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

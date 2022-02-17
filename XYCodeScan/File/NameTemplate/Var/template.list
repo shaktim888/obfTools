@@ -1,0 +1,7 @@
+${prefix}${Word1}${Word2}
+${prefix}${Word1}${Suffix}
+${prefix}${Word1}${Word2}${Suffix}
+_${prefix}${Word1}${Word2}
+_${word1}${Word2}${Suffix}
+${word1}${Word2}
+${word1}${Word2}${Suffix}

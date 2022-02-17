@@ -1,0 +1,14 @@
+#class#NSString##Foundation
+##m2_const#@#0##string
+##m2#string
+##m2#stringWithUTF8String:#0##string
+
+##m#floatValue##float
+##m#dataUsingEncoding:NSUTF8StringEncoding##NSData
+##m#stringByAppendingString:#0##NSString,NSString
+##m#stringByStandardizingPath##NSString
+##m#stringByAppendingPathComponent:#0##NSString,NSString
+##m#stringByDeletingPathExtension##NSString
+##m#substringWithRange:#0##NSString,NSRange
+##m#substringToIndex:#0##NSString,int
+##m#UTF8String##string

@@ -1,0 +1,12 @@
+8##interface#UIView##UIKit
+- (void)didAddSubview:(UIView *)subview
+- (void)willRemoveSubview:(UIView *)subview
+- (void)willMoveToSuperview:(nullable UIView *)newSuperview
+- (void)didMoveToSuperview
+- (void)willMoveToWindow:(nullable UIWindow *)newWindow
+- (void)didMoveToWindow
+- (BOOL)isDescendantOfView:(UIView *)view
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event
+- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event

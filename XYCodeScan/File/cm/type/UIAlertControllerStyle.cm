@@ -1,0 +1,4 @@
+#enum#UIAlertControllerStyle##UIKit
+
+##e#UIAlertControllerStyleActionSheet
+##e#UIAlertControllerStyleAlert

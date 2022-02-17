@@ -1,0 +1,7 @@
+#class#NSData##UIKit
+##m2#data
+
+##m#length##int
+##m#[#self writeToFile:#0 atomically:YES]##void,NSString
+##m#base64Encoding##NSString
+

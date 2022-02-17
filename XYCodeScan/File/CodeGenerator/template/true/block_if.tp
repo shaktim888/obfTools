@@ -1,0 +1,10 @@
+##c,oc,c++##
+if(${true}) {
+	${block_start}
+	${block}
+	${block_end}
+} else {
+    ${block_start}
+    ${block_false}
+    ${block_end}
+}

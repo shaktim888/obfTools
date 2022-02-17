@@ -1,0 +1,6 @@
+#enum#UITextBorderStyle##UIKit
+
+##e#UITextBorderStyleNone
+##e#UITextBorderStyleLine
+##e#UITextBorderStyleBezel
+##e#UITextBorderStyleRoundedRect

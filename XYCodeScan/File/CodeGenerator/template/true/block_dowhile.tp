@@ -1,0 +1,12 @@
+##c,oc,c++##
+do {
+	${block_start}
+	${block}
+	if(${true}) {
+		${block_start}
+		${block}
+		${block_end}
+		break;
+	}
+	${block_end}
+} while(${bool});

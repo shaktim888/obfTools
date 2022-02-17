@@ -1,0 +1,12 @@
+//
+//  ImportClass.h
+//  asd
+//
+//
+
+#import <Foundation/Foundation.h>
+
+@interface {{ ImportClass }} : NSObject
+
+
+@end

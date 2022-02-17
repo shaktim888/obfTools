@@ -1,0 +1,34 @@
+#class#UIView##UIKit
+##m1#initWithFrame:#0##CGRect
+
+##p#frame##CGRect
+##p#bounds##CGRect
+##p#center##CGPoint
+##p#contentScaleFactor##Float-10.0
+##p_write#multipleTouchEnabled##Bool
+##p_read#isMultipleTouchEnabled##Bool
+##p_write#exclusiveTouch##Bool
+##p_read#isExclusiveTouch##Bool
+##p#autoresizesSubviews##Bool
+##p#autoresizingMask##UIViewAutoresizing
+##p#clipsToBounds##Bool
+##p_write#opaque##Bool
+##p_read#isOpaque##Bool
+##p#clearsContextBeforeDrawing##Bool
+##p_write#hidden##Bool
+##p_read#isHidden##Bool
+##p#backgroundColor##UIColor
+##p#alpha##Float-1.0
+##p#contentMode##UIViewContentMode
+
+##m#removeFromSuperview##void
+##m#insertSubview:#0 atIndex:#1##void,UIView,int
+##m#exchangeSubviewAtIndex:#0 withSubviewAtIndex:#1##void,Int,Int
+##m#addSubview:#0##void,UIView
+##m#bringSubviewToFront:#0##void,UIView
+##m#sendSubviewToBack:#0##void,UIView
+##m#isDescendantOfView:#0##bool,UIView
+##m#setNeedsLayout##void
+##m#layoutIfNeeded##void
+##m#layoutSubviews##void
+

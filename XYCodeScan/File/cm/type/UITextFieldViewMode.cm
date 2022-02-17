@@ -1,0 +1,6 @@
+#enum#UITextFieldViewMode##UIKit
+
+##e#UITextFieldViewModeNever
+##e#UITextFieldViewModeWhileEditing
+##e#UITextFieldViewModeUnlessEditing
+##e#UITextFieldViewModeAlways

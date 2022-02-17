@@ -1,0 +1,5 @@
+5##interface#UIControl##UIKit
+- (BOOL)beginTrackingWithTouch:(UITouch *)touch withEvent:(nullable UIEvent *)event
+- (BOOL)continueTrackingWithTouch:(UITouch *)touch withEvent:(nullable UIEvent *)event
+- (void)endTrackingWithTouch:(nullable UITouch *)touch withEvent:(nullable UIEvent *)event
+- (void)cancelTrackingWithEvent:(nullable UIEvent *)event

@@ -1,0 +1,56 @@
+//
+//  {{ ClassName }}.m
+//
+//
+
+#import "{{ ClassName }}.h"
+
+@interface {{ ClassName }} ()
+
+@property (nonatomic, strong) NSString *name;
+
+@end
+
+@implementation {{ ClassName }}
+{
+{% for p in firstMethodParams %}
+{{ p.value }} * {{ p.key }};
+{% /for %}
+{% for p in secondMethodParams %}
+{{ p.value }} * {{ p.key }};
+{% /for %}
+}
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+
+        [self {% for p in firstMethodParams %}{{ p.key | capitalized }}:@"{{ p.key }}" {% /for %}{% for p in firstMethodParams %}];
+        self.name = [self {{ returnCallfunc }}];
+    }
+    return self;
+}
+
+
+- (void) {% for p in firstMethodParams %}{{ p.key | capitalized }}:({{ p.value }} *){{ p.key }} {% /for %} {
+    {% for p in firstMethodParams %}
+    {{ p.key }} = {{ p.key }};
+    {% /for %}
+    [self {% for p in secondMethodParams %}{{ p.key | capitalized }}:@"{{ p.key }}" {% /for %} ];
+}
+
+- (void) {% for p in secondMethodParams %}{{ p.key | capitalized }}:({{ p.value }} *){{ p.key }} {% /for %} {
+    {% for p in secondMethodParams %}
+    {{ p.key }} = {{ p.key }};
+    {% /for %}
+    [self {{ returnCallfunc }}];
+}
+
+- (NSString *) {{ returnCallfunc }} {
+    NSString *name = [NSString stringWithFormat:@"{% for p in firstMethodParams %}%@{% /for %}"{% for p in firstMethodParams %},@"{{ p.key }}"{% /for %}];
+    return name;
+}
+
+
+@end
+

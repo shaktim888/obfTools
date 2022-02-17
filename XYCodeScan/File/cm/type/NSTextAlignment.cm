@@ -1,0 +1,7 @@
+#enum#NSTextAlignment##UIKit
+
+##e#NSTextAlignmentLeft
+##e#NSTextAlignmentCenter
+##e#NSTextAlignmentRight
+##e#NSTextAlignmentJustified
+##e#NSTextAlignmentNatural

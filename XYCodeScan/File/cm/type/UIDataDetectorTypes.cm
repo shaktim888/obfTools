@@ -1,0 +1,9 @@
+#enum#UIDataDetectorTypes##UIKit
+
+##e#UIDataDetectorTypePhoneNumber
+##e#UIDataDetectorTypeLink
+##e#UIDataDetectorTypeAddress
+##e#UIDataDetectorTypeCalendarEvent
+##e#UIDataDetectorTypeNone
+##e#UIDataDetectorTypeAll
+

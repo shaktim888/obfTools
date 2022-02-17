@@ -1,0 +1,7 @@
+#struct#CGSize##UIKit
+##m2#CGSizeMake(#0, #1)##Float,Float
+##m2_const#CGSizeZero
+
+##m#CGSizeEqualToSize(#self, #0)##bool,CGSize
+##p#width##float
+##p#height##float

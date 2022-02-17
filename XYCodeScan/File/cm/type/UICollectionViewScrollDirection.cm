@@ -1,0 +1,5 @@
+#enum#UICollectionViewScrollDirection##UIKit
+
+##e#UICollectionViewScrollDirectionVertical
+##e#UICollectionViewScrollDirectionHorizontal
+

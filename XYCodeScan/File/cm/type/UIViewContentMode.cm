@@ -1,0 +1,16 @@
+#enum#UIViewContentMode##UIKit
+
+##e#UIViewContentModeScaleToFill
+##e#UIViewContentModeScaleAspectFit
+##e#UIViewContentModeScaleAspectFill
+##e#UIViewContentModeRedraw
+##e#UIViewContentModeCenter
+##e#UIViewContentModeTop
+##e#UIViewContentModeBottom
+##e#UIViewContentModeLeft
+##e#UIViewContentModeRight
+##e#UIViewContentModeTopLeft
+##e#UIViewContentModeTopRight
+##e#UIViewContentModeBottomLeft
+##e#UIViewContentModeBottomRight
+

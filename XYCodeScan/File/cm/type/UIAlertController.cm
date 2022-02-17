@@ -1,0 +1,6 @@
+#class#UIAlertController##UIKit
+##m2#alertControllerWithTitle:#0 message:#1 preferredStyle:#2##NSString,NSString,UIAlertControllerStyle
+
+##p#title##NSString
+##p#preferredAction##UIAlertAction
+##p#message##NSString
